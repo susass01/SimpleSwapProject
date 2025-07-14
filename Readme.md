@@ -71,7 +71,7 @@ Achieved test coverage:
 
 ## **🚀 Deployment Links**
 
-* 🔗 **Live Frontend**: https://your-vercel-app.vercel.app
+* 🔗 **Live Frontend**: https://susass01.github.io/SimpleSwapProject/
 
 * 🔗 **Smart Contract Address (Sepolia)**: 0x30B0c8787F826D26811aD5216bF968980100B179
 
