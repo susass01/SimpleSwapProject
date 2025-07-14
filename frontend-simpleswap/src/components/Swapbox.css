@@ -1,0 +1,50 @@
+.swap-box {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.swap-box h3 {
+  margin-top: 20px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.swap-box input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+}
+
+.swap-box button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.swap-box button:hover {
+  background-color: #005fcb;
+}
+
+.swap-box p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #444;
+}

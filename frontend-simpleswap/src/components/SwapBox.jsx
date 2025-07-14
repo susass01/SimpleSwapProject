@@ -2,6 +2,7 @@ import { useState } from "react";
 import { ethers } from "ethers";
 import simpleSwapAbi from "../abi/SimpleSwap.json";
 import erc20Abi from "../abi/ERC20.json"; // ABI mínimo para tokens ERC20
+import "./SwapBox.css";
 
 export default function SwapBox({ account }) {
   const [amountIn, setAmountIn] = useState("");
@@ -147,7 +148,7 @@ async function fetchLiquidityInfo() {
   }
 
   return (
-    <div>
+    <div className="swap-box">
       <h3>Agregar Liquidez</h3>
       <input
         type="text"

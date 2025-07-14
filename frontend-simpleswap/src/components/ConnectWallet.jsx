@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import "./ConnectWallet.css";
 
 export default function ConnectWallet({ setAccount }) {
   const [connected, setConnected] = useState(false);
@@ -15,8 +16,10 @@ export default function ConnectWallet({ setAccount }) {
   }
 
   return (
+    <div className="connect-wallet">
     <button onClick={connect}>
       {connected ? "Wallet conectada" : "Conectar Wallet"}
     </button>
+    </div>
   );
 }
